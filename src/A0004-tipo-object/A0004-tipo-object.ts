@@ -21,5 +21,5 @@ const objetoB: {
 objetoB.chaveA = 'Outro valor';
 objetoB.chaveC = 'Chave opcional';
 // ERRO! Não é possível alterar readonly
-objetoB.chaveD = 'Não é possível alterar';
+// objetoB.chaveD = 'Não é possível alterar';
 objetoB.chaveE = 'Nova chave';
