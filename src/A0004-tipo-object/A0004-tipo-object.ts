@@ -16,6 +16,7 @@ const objetoB: {
 } = {
 	chaveA: 'Valor A',
 	chaveB: 'Valor B',
+	chaveD: 'Valor D',
 };
 
 objetoB.chaveA = 'Outro valor';
