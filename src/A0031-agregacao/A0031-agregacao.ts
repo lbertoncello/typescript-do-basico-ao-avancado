@@ -1,7 +1,7 @@
 /*
  * --- Agregação ---
- * Tipo de associação em que uma classe depende da outra para funcionar corretamente
- * mas não para existir
+ * Tipo de associação em que uma classe depende da outra para funcionar corretamente mas não para existir.
+ * É um tipo forte de relação.
  */
 export class CarrinhoDeCompras {
 	private readonly produtos: Produto[] = [];

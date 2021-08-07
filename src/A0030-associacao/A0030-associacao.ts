@@ -1,6 +1,7 @@
 /*
  * --- Associação ---
- * Tipo de relação em que uma classe não depende da outra para existir ou funcionar
+ * Tipo de relação em que uma classe não depende da outra para existir ou funcionar.
+ * É o tipo mais fraco de relação.
  */
 export class Escritor {
 	private _ferramenta: Ferramenta | null = null;
