@@ -1,4 +1,4 @@
-// extends keyof restringe o generics K para apenas keys contidas em O
+// extends keyof restringe (generic constraint) o generics K para apenas keys contidas em O
 type ObterChaveFn = <O, K extends keyof O>(objeto: O, chave: K) => O[K];
 
 const obterChave: ObterChaveFn = (objeto, chave) => objeto[chave];
