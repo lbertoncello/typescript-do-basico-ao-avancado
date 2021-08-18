@@ -1,4 +1,9 @@
 /* eslint-disable @typescript-eslint/no-namespace */
+/*
+ * No TS não é recomendável a utilização de namespace, uma vez que a mesma
+ * funcionalidade pode ser obtida através do uso de modules que é preferível,
+ * uma vez que se trata de um recurso nativo do JS.
+ */
 
 namespace MeuNamespace {
 	export const nomeDoNamespace = 'Lucas';
