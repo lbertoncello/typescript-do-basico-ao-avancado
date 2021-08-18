@@ -10,3 +10,7 @@
  */
 
 console.log(MeuNamespace.OutroNamespace.nomeDoNamespace);
+/*
+ * Esta variável vem de ./module.ts e funciona porque o namespace e os arquivos que importam o namespace são compilados em um só arquivo
+ */
+console.log(varQueVaiFuncionarEmOutroArquivo);

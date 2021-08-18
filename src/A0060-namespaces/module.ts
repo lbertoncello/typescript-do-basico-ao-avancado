@@ -27,3 +27,6 @@ const pessoaDoNamespace = new MeuNamespace.PessoaDoNamespace('Lucas');
 console.log(pessoaDoNamespace);
 console.log(MeuNamespace.nomeDoNamespace);
 console.log(MeuNamespace.OutroNamespace.nomeDoNamespace);
+
+const varQueVaiFuncionarEmOutroArquivo =
+	'Esta variável funciona em outro arquivo porque o namespace e os arquivos que importam o namespace são compilados em um só arquivo';
